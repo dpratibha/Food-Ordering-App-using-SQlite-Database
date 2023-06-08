@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+    <EditText
+        android:id="@+id/textName"
+        android:textSize="20dp"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/textEmail"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/textMobile"
+        android:textSize="20dp"
+        android:hint="Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textAge"
+        android:textSize="20dp"
+        android:hint="Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/textPass"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/textConfirmPass"
+        android:textSize="20dp"
+        android:hint="ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+       <RadioGroup
+
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+   </RadioGroup>
+
+</LinearLayout>
